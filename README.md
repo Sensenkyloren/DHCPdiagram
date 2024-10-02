@@ -1,8 +1,8 @@
 # DHCPdiagram
 ```mermaid
 sequenceDiagram
-    participant User as Users Machine
     participant Server1 as DHCP Server #1
+    participant User as Users Machine
     participant Server2 as DHCP Server #2
 
     User->>Server1: DHCP Discover
