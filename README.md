@@ -1,9 +1,9 @@
 # DHCPdiagram
 ```mermaid
 sequenceDiagram
-    participant Server1 as DHCP Server #1
-    participant User as User Machine
-    participant Server2 as DHCP Server #2
+    participant Server1 as Server1
+    participant User as Client
+    participant Server2 as Server2
 
     User->>Server1: DHCP Discover
     Server1-->>User: DHCP Offer (Lease for 8 hours)
